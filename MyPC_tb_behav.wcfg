@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MyPC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MyPC_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="212400001fs"></ZoomEndTime>
+      <Cursor1Time time="8600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="group180" type="group">
+      <obj_property name="label">TOP_module</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/outValue" type="array">
+         <obj_property name="ElementShortName">outValue[15:0]</obj_property>
+         <obj_property name="ObjectShortName">outValue[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/inr" type="array">
+         <obj_property name="ElementShortName">inr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">inr[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group179" type="group">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/stop" type="logic">
+         <obj_property name="ElementShortName">stop</obj_property>
+         <obj_property name="ObjectShortName">stop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/ALUop" type="array">
+         <obj_property name="ElementShortName">ALUop[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUop[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/RegDst" type="logic">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/ALUsrc" type="logic">
+         <obj_property name="ElementShortName">ALUsrc</obj_property>
+         <obj_property name="ObjectShortName">ALUsrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/Jump" type="logic">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/MemToReg" type="logic">
+         <obj_property name="ElementShortName">MemToReg</obj_property>
+         <obj_property name="ObjectShortName">MemToReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/JE_JNE" type="logic">
+         <obj_property name="ElementShortName">JE_JNE</obj_property>
+         <obj_property name="ObjectShortName">JE_JNE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/link" type="logic">
+         <obj_property name="ElementShortName">link</obj_property>
+         <obj_property name="ObjectShortName">link</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/ctrlIn" type="array">
+         <obj_property name="ElementShortName">ctrlIn[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrlIn[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group175" type="group">
+      <obj_property name="label">Register_file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/Data2" type="array">
+         <obj_property name="ElementShortName">Data2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Data2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/Data1" type="array">
+         <obj_property name="ElementShortName">Data1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Data1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/RegDataIn" type="array">
+         <obj_property name="ElementShortName">RegDataIn[15:0]</obj_property>
+         <obj_property name="ObjectShortName">RegDataIn[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/writeReg" type="array">
+         <obj_property name="ElementShortName">writeReg[2:0]</obj_property>
+         <obj_property name="ObjectShortName">writeReg[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/ReadReg2" type="array">
+         <obj_property name="ElementShortName">ReadReg2[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadReg2[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/Registers/ReadReg1" type="array">
+         <obj_property name="ElementShortName">ReadReg1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadReg1[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group158" type="group">
+      <obj_property name="label">DataMemory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/Data/dataOut" type="array">
+         <obj_property name="ElementShortName">dataOut[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dataOut[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/Data/dataIn" type="array">
+         <obj_property name="ElementShortName">dataIn[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dataIn[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/Data/address" type="array">
+         <obj_property name="ElementShortName">address[9:0]</obj_property>
+         <obj_property name="ObjectShortName">address[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/Data/memRead" type="logic">
+         <obj_property name="ElementShortName">memRead</obj_property>
+         <obj_property name="ObjectShortName">memRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/Data/memWrite" type="logic">
+         <obj_property name="ElementShortName">memWrite</obj_property>
+         <obj_property name="ObjectShortName">memWrite</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group157" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/ALU_0/ALUout" type="array">
+         <obj_property name="ElementShortName">ALUout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/ALU_0/A" type="array">
+         <obj_property name="ElementShortName">A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">A[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/ALU_0/B" type="array">
+         <obj_property name="ElementShortName">B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">B[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/ALU_0/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group187" type="group">
+      <obj_property name="label">Instruction and data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/dataAddress" type="array">
+         <obj_property name="ElementShortName">dataAddress[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dataAddress[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/insAddress" type="array">
+         <obj_property name="ElementShortName">insAddress[15:0]</obj_property>
+         <obj_property name="ObjectShortName">insAddress[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group188" type="group">
+      <obj_property name="label">Program Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MyPC_tb/PC0/CPU0/pc/out" type="array">
+         <obj_property name="ElementShortName">out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Nov 30 16:55:45 2017
+# Process ID: 5860
+# Current directory: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7544 C:\Users\mzm0175\OneDrive - Auburn University\Academics\Compuer architectute\Project\project_CPU_RET_fixed _impl_seven_segment\project_CPU.xpr
+# Log file: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/vivado.log
+# Journal file: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/project_CPU.xpr}
+update_compile_order -fileset sources_1
+open_run impl_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/project_CPU.runs/impl_1/Test_PC.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/project_CPU.runs/impl_1/Test_PC.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+launch_simulation
+source MyPC_tb.tcl
+open_run synth_1 -name synth_1
+close_sim
+launch_simulation
+source MyPC_tb.tcl
+add_wave {{/MyPC_tb/PC0/Data}} 
+remove_forces { {/MyPC_tb/PC0/Data/i} }
+add_wave {{/MyPC_tb/PC0/CPU0/controller}} 
+relaunch_sim
+add_wave {{/MyPC_tb/PC0/CPU0/pc/out}} 
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+source MyPC_tb.tcl
+add_wave {{/MyPC_tb/PC0/CPU0/controller}} 
+add_wave {{/MyPC_tb/PC0/Data/memWrite}} {{/MyPC_tb/PC0/Data/memRead}} {{/MyPC_tb/PC0/Data/address}} {{/MyPC_tb/PC0/Data/dataIn}} {{/MyPC_tb/PC0/Data/dataOut}} {{/MyPC_tb/PC0/Data/memory}} 
+add_wave {{/MyPC_tb/PC0/CPU0/pc}} 
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+source MyPC_tb.tcl
+add_wave {{/MyPC_tb/PC0/Data}} 
+add_wave {{/MyPC_tb/PC0/CPU0/controller}} 
+relaunch_sim
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+current_design impl_1
+refresh_design
+add_wave {{/MyPC_tb/PC0}} 
+add_wave {{/MyPC_tb/PC0/CPU0/controller}} 
+add_wave {{/MyPC_tb/PC0/CPU0/Registers}} 
+add_wave {{/MyPC_tb/PC0/Data}} 
+add_wave {{/MyPC_tb/PC0/CPU0/ALU_0}} 
+add_wave {{/MyPC_tb/PC0/CPU0/insAddress}} {{/MyPC_tb/PC0/CPU0/dataAddress}} 
+add_wave {{/MyPC_tb/PC0/CPU0/pc}} 
+relaunch_sim
+save_wave_config {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/MyPC_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/MyPC_tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/project_CPU_RET_fixed _impl_seven_segment/MyPC_tb_behav.wcfg}} [get_filesets sim_1]
+close_sim

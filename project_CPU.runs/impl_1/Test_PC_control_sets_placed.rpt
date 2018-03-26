@@ -1,0 +1,73 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Mon Dec  4 13:05:59 2017
+| Host         : ELECA81 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Test_PC_control_sets_placed.rpt
+| Design       : Test_PC
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |     6 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              34 |           12 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             112 |           85 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+|  Clock Signal  |                Enable Signal                |               Set/Reset Signal              | Slice Load Count | Bel Load Count |
++----------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                             | PC0/CPU0/pc/out[15]_i_1_n_0                 |                6 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack[2][15]_i_1_n_0 | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               14 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack[4][15]_i_1_n_0 | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               14 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack[3][15]_i_1_n_0 | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               12 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack                | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               10 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack[1][15]_i_1_n_0 | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               12 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack[6][15]_i_1_n_0 | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               13 |             16 |
+|  clk_IBUF_BUFG | PC0/CPU0/Registers/Reg_stack[5][15]_i_1_n_0 | PC0/CPU0/Registers/Reg_stack[7][15]_i_2_n_0 |               10 |             16 |
+|  clk_IBUF_BUFG |                                             | Disp/count[17]_i_1_n_0                      |                6 |             18 |
+|  clk_IBUF_BUFG | PC0/Data/memory_reg_0_255_0_0_i_1_n_0       |                                             |               16 |             64 |
+|  clk_IBUF_BUFG | PC0/Data/memory_reg_256_511_0_0_i_1_n_0     |                                             |               16 |             64 |
+|  clk_IBUF_BUFG | PC0/Data/memory_reg_512_767_0_0_i_1_n_0     |                                             |               16 |             64 |
+|  clk_IBUF_BUFG | PC0/Data/memory_reg_768_1023_0_0_i_1_n_0    |                                             |               16 |             64 |
++----------------+---------------------------------------------+---------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 16+    |                    13 |
++--------+-----------------------+
+
+

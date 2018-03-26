@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MyPC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MyPC_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="229600001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/MyPC_tb/inr" type="array">
+      <obj_property name="ElementShortName">inr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">inr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/outValue" type="array">
+      <obj_property name="ElementShortName">outValue[15:0]</obj_property>
+      <obj_property name="ObjectShortName">outValue[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/f" type="array">
+      <obj_property name="ElementShortName">f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/pc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/pc/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/pc/in" type="array">
+      <obj_property name="ElementShortName">in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/pc/out" type="array">
+      <obj_property name="ElementShortName">out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/ctrlIn" type="array">
+      <obj_property name="ElementShortName">ctrlIn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlIn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/link" type="logic">
+      <obj_property name="ElementShortName">link</obj_property>
+      <obj_property name="ObjectShortName">link</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/JE_JNE" type="logic">
+      <obj_property name="ElementShortName">JE_JNE</obj_property>
+      <obj_property name="ObjectShortName">JE_JNE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/MemToReg" type="logic">
+      <obj_property name="ElementShortName">MemToReg</obj_property>
+      <obj_property name="ObjectShortName">MemToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/Jump" type="logic">
+      <obj_property name="ElementShortName">Jump</obj_property>
+      <obj_property name="ObjectShortName">Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/ALUsrc" type="logic">
+      <obj_property name="ElementShortName">ALUsrc</obj_property>
+      <obj_property name="ObjectShortName">ALUsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/ALUop" type="array">
+      <obj_property name="ElementShortName">ALUop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MyPC_tb/PC0/CPU0/controller/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+</wave_config>

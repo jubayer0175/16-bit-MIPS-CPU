@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

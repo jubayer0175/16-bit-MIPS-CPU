@@ -1,0 +1,776 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Nov 16 00:58:55 2017
+# Process ID: 7140
+# Current directory: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9676 C:\Users\mzm0175\OneDrive - Auburn University\Academics\Compuer architectute\Project\Project_fress\project_CPU_RET_fixed\project_CPU.xpr
+# Log file: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/vivado.log
+# Journal file: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed'
+INFO: [Project 1-313] Project file moved from 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Nov 16 01:14:33 2017] Launched synth_1...
+Run output will be captured here: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.runs/synth_1/runme.log
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MyPC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj MyPC_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cont
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto e1c5072daa4245af87b29c45515fe4d7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MyPC_tb_behav xil_defaultlib.MyPC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ADDER
+Compiling module xil_defaultlib.Cont
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.Reg
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.insMemory
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MyPC
+Compiling module xil_defaultlib.MyPC_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MyPC_tb_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MyPC_tb_behav -key {Behavioral:sim_1:Functional:MyPC_tb} -tclbatch {MyPC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source MyPC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MyPC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+add_wave {{/MyPC_tb/PC0/CPU0/pc/in}} {{/MyPC_tb/PC0/CPU0/pc/out}} 
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MyPC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj MyPC_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cont
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto e1c5072daa4245af87b29c45515fe4d7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MyPC_tb_behav xil_defaultlib.MyPC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ADDER
+Compiling module xil_defaultlib.Cont
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.Reg
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.insMemory
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MyPC
+Compiling module xil_defaultlib.MyPC_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MyPC_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 890.043 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MyPC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj MyPC_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cont
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto e1c5072daa4245af87b29c45515fe4d7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MyPC_tb_behav xil_defaultlib.MyPC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ADDER
+Compiling module xil_defaultlib.Cont
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.Reg
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.insMemory
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MyPC
+Compiling module xil_defaultlib.MyPC_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MyPC_tb_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MyPC_tb_behav -key {Behavioral:sim_1:Functional:MyPC_tb} -tclbatch {MyPC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source MyPC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MyPC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+add_wave {{/MyPC_tb/PC0/CPU0/pc/in}} {{/MyPC_tb/PC0/CPU0/pc/out}} 
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MyPC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj MyPC_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cont
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto e1c5072daa4245af87b29c45515fe4d7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MyPC_tb_behav xil_defaultlib.MyPC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ADDER
+Compiling module xil_defaultlib.Cont
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.Reg
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.insMemory
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MyPC
+Compiling module xil_defaultlib.MyPC_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MyPC_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: MyPC
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 931.566 ; gain = 41.523
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MyPC' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:3]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:11]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:12]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:13]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:14]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:15]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:16]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:17]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:18]
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:3]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:24]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:25]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:26]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:27]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:28]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:29]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:30]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:32]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:33]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:34]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:35]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:36]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:37]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:38]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:41]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:43]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:45]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:47]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:48]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:49]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:50]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:51]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:52]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:53]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:54]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:56]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:57]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:60]
+INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MUX' (1#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v:3]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v:2]
+INFO: [Synth 8-256] done synthesizing module 'PC' (2#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v:2]
+INFO: [Synth 8-638] synthesizing module 'ADDER' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v:2]
+INFO: [Synth 8-256] done synthesizing module 'ADDER' (3#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v:2]
+INFO: [Synth 8-638] synthesizing module 'Cont' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Cont' (4#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX3' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX3' (5#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v:23]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (6#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v:3]
+INFO: [Synth 8-638] synthesizing module 'SignExtend' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v:3]
+INFO: [Synth 8-256] done synthesizing module 'SignExtend' (7#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v:3]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v:17]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v:3]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (9#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:3]
+INFO: [Synth 8-638] synthesizing module 'insMemory' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v:2]
+INFO: [Synth 8-256] done synthesizing module 'insMemory' (10#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v:2]
+INFO: [Synth 8-638] synthesizing module 'dataMemory' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v:4]
+INFO: [Synth 8-256] done synthesizing module 'dataMemory' (11#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v:4]
+INFO: [Synth 8-256] done synthesizing module 'MyPC' (12#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 957.617 ; gain = 67.574
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 957.617 ; gain = 67.574
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1246.789 ; gain = 356.746
+65 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1246.789 ; gain = 356.746
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Thu Nov 16 01:21:19 2017] Launched synth_1...
+Run output will be captured here: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MyPC_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj MyPC_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cont
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyPC_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto e1c5072daa4245af87b29c45515fe4d7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MyPC_tb_behav xil_defaultlib.MyPC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ADDER
+Compiling module xil_defaultlib.Cont
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.Reg
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.insMemory
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.MyPC
+Compiling module xil_defaultlib.MyPC_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MyPC_tb_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MyPC_tb_behav -key {Behavioral:sim_1:Functional:MyPC_tb} -tclbatch {MyPC_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source MyPC_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+WARNING: File descriptor (-20000) passed to $fwrite in file C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sim_1/new/MyPC_tb.v at line 40 is not valid.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MyPC_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1405.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MyPC' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:3]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:11]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:12]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:13]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:14]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:15]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:16]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:17]
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:3]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:24]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:25]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:26]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:27]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:28]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:29]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:30]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:32]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:33]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:34]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:35]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:36]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:37]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:38]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:41]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:43]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:45]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:47]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:48]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:49]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:50]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:51]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:52]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:53]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:54]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:56]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:57]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "true" *) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:60]
+INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MUX' (1#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX.v:3]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v:2]
+INFO: [Synth 8-256] done synthesizing module 'PC' (2#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/PC.v:2]
+INFO: [Synth 8-638] synthesizing module 'ADDER' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v:2]
+INFO: [Synth 8-256] done synthesizing module 'ADDER' (3#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ADDER.v:2]
+INFO: [Synth 8-638] synthesizing module 'Cont' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Cont' (4#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Cont.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX3' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX3' (5#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MUX3.v:23]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (6#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/Reg.v:3]
+INFO: [Synth 8-638] synthesizing module 'SignExtend' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v:3]
+INFO: [Synth 8-256] done synthesizing module 'SignExtend' (7#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/SignExtend.v:3]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v:17]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/ALU.v:3]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (9#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/CPU.v:3]
+INFO: [Synth 8-638] synthesizing module 'insMemory' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v:2]
+INFO: [Synth 8-256] done synthesizing module 'insMemory' (10#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/InsMemory.v:2]
+INFO: [Synth 8-638] synthesizing module 'dataMemory' [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v:4]
+INFO: [Synth 8-256] done synthesizing module 'dataMemory' (11#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/dataMemory.v:4]
+INFO: [Synth 8-256] done synthesizing module 'MyPC' (12#1) [C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.srcs/sources_1/imports/new/MyPC.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1421.074 ; gain = 15.652
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1421.074 ; gain = 15.652
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1453.648 ; gain = 48.227
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 01:25:10 2017...

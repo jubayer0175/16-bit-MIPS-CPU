@@ -1,0 +1,83 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 5880
+License: Customer
+
+Current time: 	11/16/17 3:13:33 AM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x1024
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 340 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/ActiveTcl/bin;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/WinSCP/;C:/Program Files/MATLAB/R2017a/runtime/win64;C:/Program Files/MATLAB/R2017a/bin;C:/Users/mzm0175/AppData/Local/Microsoft/WindowsApps;;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	mzm0175
+User home directory: C:/Users/mzm0175
+User working directory: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/mzm0175/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/mzm0175/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/mzm0175/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/.Xil/Vivado-5880-ELECA81
+
+GUI allocated memory:	186 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 568 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mzm0175\OneDrive - Auburn University\Academics\Compuer architectute\Project\Project_fress\project_CPU_RET_fixed\project_CPU.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 49 MB (+49312kb) [00:00:04]
+// [Engine Memory]: 514 MB (+387332kb) [00:00:04]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed' 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 550 MB (+10782kb) [00:00:05]
+// [GUI Memory]: 58 MB (+6780kb) [00:00:05]
+// Tcl Message: open_project {C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed/project_CPU.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// Project name: project_CPU; location: C:/Users/mzm0175/OneDrive - Auburn University/Academics/Compuer architectute/Project/Project_fress/project_CPU_RET_fixed; part: xc7a100tcsg324-1
+// [Engine Memory]: 581 MB (+3541kb) [00:00:06]
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// [GUI Memory]: 64 MB (+2895kb) [00:00:07]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 38 MB. Current time: 11/16/17 3:13:34 AM CST
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
